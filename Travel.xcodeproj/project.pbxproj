@@ -32,6 +32,10 @@
 		4E85D7E1258AEFEE00B4DDA8 /* RoundedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E85D7E0258AEFEE00B4DDA8 /* RoundedTextField.swift */; };
 		4E85D7E3258AF12700B4DDA8 /* NewRestaurantController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E85D7E2258AF12700B4DDA8 /* NewRestaurantController.swift */; };
 		4E986C6825A6AF0D00B5F2B6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E986C6725A6AF0D00B5F2B6 /* Default-568h@2x.png */; };
+		4EE7B16E25AFD83B00F47E37 /* HUAWeatherForecastData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE7B16D25AFD83B00F47E37 /* HUAWeatherForecastData.swift */; };
+		4EE7B17425AFE9E300F47E37 /* pictureCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE7B17325AFE9E300F47E37 /* pictureCollectionViewController.swift */; };
+		4EE7B17625AFEA3A00F47E37 /* pictureCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE7B17525AFEA3A00F47E37 /* pictureCollectionViewCell.swift */; };
+		4EE7B17E25AFF19000F47E37 /* huaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE7B17D25AFF19000F47E37 /* huaViewController.swift */; };
 		4EE817632541277C008B828E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE817622541277C008B828E /* AppDelegate.swift */; };
 		4EE817652541277C008B828E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE817642541277C008B828E /* SceneDelegate.swift */; };
 		4EE8176A2541277C008B828E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EE817682541277C008B828E /* Main.storyboard */; };
@@ -67,6 +71,10 @@
 		4E85D7E0258AEFEE00B4DDA8 /* RoundedTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedTextField.swift; sourceTree = "<group>"; };
 		4E85D7E2258AF12700B4DDA8 /* NewRestaurantController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRestaurantController.swift; sourceTree = "<group>"; };
 		4E986C6725A6AF0D00B5F2B6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4EE7B16D25AFD83B00F47E37 /* HUAWeatherForecastData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HUAWeatherForecastData.swift; sourceTree = "<group>"; };
+		4EE7B17325AFE9E300F47E37 /* pictureCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pictureCollectionViewController.swift; sourceTree = "<group>"; };
+		4EE7B17525AFEA3A00F47E37 /* pictureCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pictureCollectionViewCell.swift; sourceTree = "<group>"; };
+		4EE7B17D25AFF19000F47E37 /* huaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = huaViewController.swift; sourceTree = "<group>"; };
 		4EE8175F2541277C008B828E /* Travel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Travel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EE817622541277C008B828E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4EE817642541277C008B828E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -168,6 +176,7 @@
 				4E2BA74D2581C29F0025546B /* ReviewViewController.swift */,
 				4E85D7E2258AF12700B4DDA8 /* NewRestaurantController.swift */,
 				4E2189CB259440E100102351 /* AboutMeController.swift */,
+				4EE7B17D25AFF19000F47E37 /* huaViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -182,6 +191,9 @@
 				4E6C84F3257877B000896E88 /* SpotDetailSeparatorCell.swift */,
 				4E6C84F5257878D900896E88 /* SpotDetailMapCell.swift */,
 				4E85D7E0258AEFEE00B4DDA8 /* RoundedTextField.swift */,
+				4EE7B16D25AFD83B00F47E37 /* HUAWeatherForecastData.swift */,
+				4EE7B17325AFE9E300F47E37 /* pictureCollectionViewController.swift */,
+				4EE7B17525AFEA3A00F47E37 /* pictureCollectionViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -281,11 +293,15 @@
 				4EE8177925413599008B828E /* SpotTableViewCell.swift in Sources */,
 				4E2BA74E2581C29F0025546B /* ReviewViewController.swift in Sources */,
 				4E2189CC259440E100102351 /* AboutMeController.swift in Sources */,
+				4EE7B17425AFE9E300F47E37 /* pictureCollectionViewController.swift in Sources */,
+				4EE7B17625AFEA3A00F47E37 /* pictureCollectionViewCell.swift in Sources */,
 				4E0D3E08256F527F00E04A0E /* SpotDetailTextCell.swift in Sources */,
 				4EE817632541277C008B828E /* AppDelegate.swift in Sources */,
 				4E5419B42566047000AE2EB4 /* Spot.swift in Sources */,
 				4E0D3E06256F518100E04A0E /* SpotDetailIconTextCell.swift in Sources */,
 				4E0D3E04256F441700E04A0E /* SpotDetailHeaderView.swift in Sources */,
+				4EE7B16E25AFD83B00F47E37 /* HUAWeatherForecastData.swift in Sources */,
+				4EE7B17E25AFF19000F47E37 /* huaViewController.swift in Sources */,
 				4E6C84F8257882E600896E88 /* MapViewController.swift in Sources */,
 				4E3CBE0025539CB1002913BA /* SpotDetailViewController.swift in Sources */,
 				4E85D7E3258AF12700B4DDA8 /* NewRestaurantController.swift in Sources */,
